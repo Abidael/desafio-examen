@@ -1,24 +1,27 @@
 /* Agrega estas reglas al final de tu archivo CSS */
 .nav {
-    list-style: none;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  .nav-item {
-    float: right;
-    margin-left: 10px; /* Agrega un espacio entre los elementos */
-  }
-  
-  .nav-item:first-child {
-    float: left; /* El primer elemento se alinea a la izquierda */
-    margin-left: 0; /* No hay margen a la izquierda del primer elemento */
-  }
-  
-  .viajes-chile-icon {
-    width: 5%;
-    height: 100%;
-    float: left; /* Alinea la imagen a la izquierda dentro del primer elemento */
-    margin-right: 5px; /* Agrega espacio entre la imagen y el texto */
-  }
-  
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-item {
+  float: right;
+  margin-left: 10px; /* Agrega un espacio entre los elementos */
+}
+
+.viajes-chile-icon {
+  width: 5%;
+  height: 100%;
+  float: left; /* Alinea la imagen a la izquierda dentro del primer elemento */
+  margin-right: 5px; /* Agrega espacio entre la imagen y el texto */
+}
+
+body {
+  color: aliceblue;
+  background-color: black;
+}
+
+#bodycss {
+  scroll-behavior: smooth;
+}
