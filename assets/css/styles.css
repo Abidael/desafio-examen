@@ -18,3 +18,11 @@ body {
 section h2{
     text-align: center;
 }
+
+.footer-icons{
+    font-size: 25px;
+}
+
+#destacados img{
+    aspect-ratio: 4000/2667;
+}
