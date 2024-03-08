@@ -91,6 +91,8 @@
         </div>
       </div>
     </header>
+    <br />
+    <br />
     <!-- presentacion main -->
     <main>
       <section class="container">
@@ -109,33 +111,36 @@
               laborum libero ea esse aut?
             </p>
           </div>
-          <div>
-            <div>
+          <div class="col col-md-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              neque incidunt, deleniti blanditiis facere sed aspernatur eaque
+              nobis eveniet sequi, doloremque animi id, voluptatibus quam
+              sapiente explicabo odit magni magnam?
+            </p>
+            <div class="bg-info text-center">
               <i class="fa-solid fa-mountain"></i>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
-                quasi nisi laboriosam maiores pariatur ex similique adipisci?
-                Harum dolorem amet quisquam dignissimos soluta alias quas itaque
-                sit sequi, consectetur aspernatur?
-              </p>
             </div>
           </div>
-          <div>
-            <div>
+          <div class="col col-md-4">
+            <div class="bg-info text-center">
               <i class="fa-solid fa-route"></i>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aliquid, praesentium minima obcaecati ut error, eveniet quos
-                tempora repellat architecto reprehenderit placeat consequatur
-                quasi, temporibus sit officiis quae deserunt atque qui!
-              </p>
             </div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
+              labore aliquam vel voluptates quod iste quaerat hic ipsum ullam
+              sunt, enim, asperiores, expedita sit non in numquam officia. Ut,
+              accusantium?
+            </p>
           </div>
         </div>
       </section>
+      <br />
+      <br />
       <!-- cartas y info -->
       <section>
         <div class="container">
+          <h2>Destacados</h2>
           <div class="row row-cols-1 row-cols-md-4">
             <div class="col mb-4">
               <div class="card h-100">
@@ -157,7 +162,7 @@
             <div class="col mb-4">
               <div class="card h-100">
                 <img
-                  src="assets/img/card1.jpg"
+                  src="assets/img/card2.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -174,7 +179,7 @@
             <div class="col mb-4">
               <div class="card h-100">
                 <img
-                  src="assets/img/card1.jpg"
+                  src="assets/img/card3.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -191,7 +196,7 @@
             <div class="col mb-4">
               <div class="card h-100">
                 <img
-                  src="assets/img/card1.jpg"
+                  src="assets/img/card4.jpg"
                   class="card-img-top"
                   alt="..."
                 />
@@ -208,14 +213,14 @@
           </div>
         </div>
       </section>
+      <br />
+      <br />
       <!-- formulario -->
       <section class="container">
         <h2>Contacto</h2>
         <form>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
-            >
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
             <input
               type="email"
               class="form-control"
@@ -223,12 +228,12 @@
               aria-describedby="emailHelp"
             />
             <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
+              Nosotros nunca compartiremos su email.
             </div>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label"
-              >Password</label
+              >Asunto</label
             >
             <input
               type="password"
@@ -236,25 +241,30 @@
               id="exampleInputPassword1"
             />
           </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >Check me out</label
-            >
+          <div>
+            <label for="mensaje" class="form-label">Mnesaje</label>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              rows="6"
+              required
+            ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <br>
+          <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
       </section>
     </main>
+    <br>
     <!-- footer con iconos fa -->
     <footer class="text-bg-info text-white py-3">
-      <i class="fa-brands fa-github"></i>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-instagram"></i>
+      <h2>Viajes Chile</h2>
+      <div>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
     </footer>
   </body>
 </html>
