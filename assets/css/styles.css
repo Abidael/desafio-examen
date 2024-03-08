@@ -1,13 +1,11 @@
-/* Agrega estas reglas al final de tu archivo CSS */
-.nav {
-  list-style: none;
-  padding: 0;
-  overflow: hidden;
+body {
+  color: white;
+  background-color: black;
+  text-align: justify;
 }
 
-.nav-item {
-  float: right;
-  margin-left: 10px; /* Agrega un espacio entre los elementos */
+#bodycss {
+  scroll-behavior: smooth;
 }
 
 .viajes-chile-icon {
@@ -17,11 +15,6 @@
   margin-right: 5px; /* Agrega espacio entre la imagen y el texto */
 }
 
-body {
-  color: aliceblue;
-  background-color: black;
-}
-
-#bodycss {
-  scroll-behavior: smooth;
+section h2{
+    text-align: center;
 }

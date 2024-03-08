@@ -15,30 +15,33 @@
       crossorigin="anonymous"
     />
     <script
+      defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
     <!-- jquery -->
     <script
+      defer
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
     <!-- font awesome -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-      <path
-        d="M512 96c0 50.2-59.1 125.1-84.6 155c-3.8 4.4-9.4 6.1-14.5 5H320c-17.7 0-32 14.3-32 32s14.3 32 32 32h96c53 0 96 43 96 96s-43 96-96 96H139.6c8.7-9.9 19.3-22.6 30-36.8c6.3-8.4 12.8-17.6 19-27.2H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320c-53 0-96-43-96-96s43-96 96-96h39.8c-21-31.5-39.8-67.7-39.8-96c0-53 43-96 96-96s96 43 96 96zM117.1 489.1c-3.8 4.3-7.2 8.1-10.1 11.3l-1.8 2-.2-.2c-6 4.6-14.6 4-20-1.8C59.8 473 0 402.5 0 352c0-53 43-96 96-96s96 43 96 96c0 30-21.1 67-43.5 97.9c-10.7 14.7-21.7 28-30.8 38.5l-.6 .7zM128 352a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM416 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"
-      />
-    </svg>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Viajes Chile</title>
   </head>
-  <body id="bodycss" class="container">
+  <body id="bodycss" class="container-bg bg-black text-white">
     <!-- navbar -->
-    <ul class="nav navbar ms-auto">
+    <ul class="nav navbar justify-content-center fixed-top">
       <li class="nav-item">
         <img class="viajes-chile-icon" src="/assets/img/viajes.svg" alt="" />
         <a class="nav-link disabled" aria-disabled="true">Viajes Chile</a>
@@ -91,20 +94,20 @@
     <!-- presentacion main -->
     <main>
       <section class="container">
+        <div>
+          <h2>¿Quienes Somos?</h2>
+        </div>
         <div class="row">
-          <div>
-            <h1>¿Quienes Somos?</h1>
-          </div>
-          <div>
-            <div>
+          <div class="col col-md-4">
+            <div class="bg-info text-center">
               <i class="fa-solid fa-plane"></i>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                quam? Quaerat molestias, ab, assumenda explicabo ad inventore
-                reprehenderit fugiat eligendi ipsam laudantium rem eaque quo
-                laborum libero ea esse aut?
-              </p>
             </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quam?
+              Quaerat molestias, ab, assumenda explicabo ad inventore
+              reprehenderit fugiat eligendi ipsam laudantium rem eaque quo
+              laborum libero ea esse aut?
+            </p>
           </div>
           <div>
             <div>
@@ -129,6 +132,122 @@
             </div>
           </div>
         </div>
+      </section>
+      <!-- cartas y info -->
+      <section>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-4">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="assets/img/card1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-info">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="assets/img/card1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-info">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="assets/img/card1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-info">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img
+                  src="assets/img/card1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body bg-info">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- formulario -->
+      <section class="container">
+        <h2>Contacto</h2>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </section>
     </main>
     <!-- footer con iconos fa -->
