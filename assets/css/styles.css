@@ -2,6 +2,7 @@ body {
   color: white;
   background-color: black;
   text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #bodycss {
@@ -25,4 +26,9 @@ section h2{
 
 #destacados img{
     aspect-ratio: 4000/2667;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
 }
